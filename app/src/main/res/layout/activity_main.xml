@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="right"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요"
+        android:textSize="20dp"
+        android:layout_gravity="left"
+        android:background="#7AF83B"
+        android:textColor="@android:color/holo_blue_dark"/>
+    <!--위와 아래 텍스트뷰 마침 표시는 동일한 의미래-->
+    <TextView
+        android:text="안녕히계세요"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <ImageView
+        android:layout_width="300dp"
+        android:background="#ff77ff"
+        android:layout_height="300dp"/>
+
+</LinearLayout>
